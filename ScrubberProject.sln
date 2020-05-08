@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DOUScraper", "DOUScraper\DOUScraper.csproj", "{300E72DC-7606-4B72-BE0C-4B2FBDCED07A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DOUListener", "DOUListener\DOUListener.csproj", "{002C9793-7194-401A-B745-5F066E80C168}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{300E72DC-7606-4B72-BE0C-4B2FBDCED07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300E72DC-7606-4B72-BE0C-4B2FBDCED07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300E72DC-7606-4B72-BE0C-4B2FBDCED07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300E72DC-7606-4B72-BE0C-4B2FBDCED07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{002C9793-7194-401A-B745-5F066E80C168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{002C9793-7194-401A-B745-5F066E80C168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{002C9793-7194-401A-B745-5F066E80C168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{002C9793-7194-401A-B745-5F066E80C168}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF5A85C7-5677-42F8-BC8B-8325EF3D01D1}
+	EndGlobalSection
+EndGlobal
