@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ScrubberProjectV2\\ScrubberProject\\DOUListener\\DOUListener.csproj": {}
+    "D:\\ScrubberProjectV2\\ScrubberProject\\ScrubberProject\\DOUListener\\DOUListener.csproj": {}
   },
   "projects": {
-    "D:\\ScrubberProjectV2\\ScrubberProject\\DOUListener\\DOUListener.csproj": {
+    "D:\\ScrubberProjectV2\\ScrubberProject\\ScrubberProject\\DOUListener\\DOUListener.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ScrubberProjectV2\\ScrubberProject\\DOUListener\\DOUListener.csproj",
+        "projectUniqueName": "D:\\ScrubberProjectV2\\ScrubberProject\\ScrubberProject\\DOUListener\\DOUListener.csproj",
         "projectName": "DOUListener",
-        "projectPath": "D:\\ScrubberProjectV2\\ScrubberProject\\DOUListener\\DOUListener.csproj",
+        "projectPath": "D:\\ScrubberProjectV2\\ScrubberProject\\ScrubberProject\\DOUListener\\DOUListener.csproj",
         "packagesPath": "C:\\Users\\Andrii\\.nuget\\packages\\",
-        "outputPath": "D:\\ScrubberProjectV2\\ScrubberProject\\DOUListener\\obj\\",
+        "outputPath": "D:\\ScrubberProjectV2\\ScrubberProject\\ScrubberProject\\DOUListener\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
