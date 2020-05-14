@@ -12,3 +12,16 @@ D:\ScrubberProjectV2\ScrubberProject\DOUScraper\obj\Debug\netcoreapp3.1\DOUScrap
 D:\ScrubberProjectV2\ScrubberProject\DOUScraper\obj\Debug\netcoreapp3.1\DOUScraper.csproj.CopyComplete
 D:\ScrubberProjectV2\ScrubberProject\DOUScraper\obj\Debug\netcoreapp3.1\DOUScraper.dll
 D:\ScrubberProjectV2\ScrubberProject\DOUScraper\obj\Debug\netcoreapp3.1\DOUScraper.pdb
+D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUScraper\bin\Debug\netcoreapp3.1\DOUScraper.exe
+D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUScraper\bin\Debug\netcoreapp3.1\DOUScraper.deps.json
+D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUScraper\bin\Debug\netcoreapp3.1\DOUScraper.runtimeconfig.json
+D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUScraper\bin\Debug\netcoreapp3.1\DOUScraper.runtimeconfig.dev.json
+D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUScraper\bin\Debug\netcoreapp3.1\DOUScraper.dll
+D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUScraper\bin\Debug\netcoreapp3.1\DOUScraper.pdb
+D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUScraper\bin\Debug\netcoreapp3.1\AngleSharp.dll
+D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUScraper\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUScraper\obj\Debug\netcoreapp3.1\DOUScraper.AssemblyInfoInputs.cache
+D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUScraper\obj\Debug\netcoreapp3.1\DOUScraper.AssemblyInfo.cs
+D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUScraper\obj\Debug\netcoreapp3.1\DOUScraper.csproj.CopyComplete
+D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUScraper\obj\Debug\netcoreapp3.1\DOUScraper.dll
+D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUScraper\obj\Debug\netcoreapp3.1\DOUScraper.pdb
