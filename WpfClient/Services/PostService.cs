@@ -2,6 +2,7 @@
 using GraphQL.Common.Request;
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using WpfClient.Model;
 
 namespace WpfClient.Services
@@ -41,23 +42,22 @@ namespace WpfClient.Services
             return posts;
         }
 
-        public bool Feedback(Post post, bool like)
+        public async Task<bool> FeedbackAsync(int id, bool like)
         {
-            int id = post.Id;
-            post.Like = like;
             var request = new GraphQLRequest()
             {
                 Query = @"
-                    mutation ($post: PostInfoInput!, $id:ID!)
+                    mutation ($like: Boolean!, $id:ID!)
                       {
-                        addLike(post:$post, id:$id)
+                        addLike(like:$like, id:$id)
                             { 
-                               name                            
+                               like,
+                               id
                             }
                      }",
-                Variables = new { info = post, infoId = id }
+                Variables = new { like = like, id = id }
             };
-            var graphQLResponse = _client.PostAsync(request).Result;
+            var graphQLResponse = await _client.PostAsync(request);
             var upPost= graphQLResponse.GetDataFieldAs<Post>("addLike");
             return upPost.Like;
         }
