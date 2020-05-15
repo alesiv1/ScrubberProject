@@ -92,9 +92,9 @@ D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUListener\bin\Debug\netco
 D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUListener\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUListener\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUListener\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUListener\obj\Debug\netcoreapp3.1\DOUListener.csprojAssemblyReference.cache
 D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUListener\obj\Debug\netcoreapp3.1\DOUListener.AssemblyInfoInputs.cache
 D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUListener\obj\Debug\netcoreapp3.1\DOUListener.AssemblyInfo.cs
 D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUListener\obj\Debug\netcoreapp3.1\DOUListener.csproj.CopyComplete
 D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUListener\obj\Debug\netcoreapp3.1\DOUListener.dll
 D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUListener\obj\Debug\netcoreapp3.1\DOUListener.pdb
-D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUListener\obj\Debug\netcoreapp3.1\DOUListener.csprojAssemblyReference.cache
