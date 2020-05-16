@@ -8,12 +8,16 @@
   <div *ngIf="error">
     Error Occurred <mat-icon>mood_bad</mat-icon>
   </div>
-
-  <div *ngFor="let post of posts">
+  <div *ngFor="let post of postsAll">
     <mat-card>
       <mat-card-title>{{ post.title }}</mat-card-title>
       <mat-card-subtitle>{{ post.author }}</mat-card-subtitle>
+      <mat-card-content>{{ post.url }}</mat-card-content>
       <mat-card-content>{{ post.description }}</mat-card-content>
+      <mat-card-content>Type: {{ post.type }}</mat-card-content>
+      <mat-card-content>Topics: {{ post.topics}}</mat-card-content>
+      <mat-card-content>Dade: {{ post.date }}</mat-card-content>
+      <mat-card-content>Views: {{ post.numberOfViews }}</mat-card-content>
 
       <div *ngIf="post.like">
         <button mat-fab color="green" (click)="updatePosts(!post.like, post)">

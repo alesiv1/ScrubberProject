@@ -22,9 +22,9 @@ const CREATE_LIKE_MUTATION = gql`
 export class ApiService {
   constructor(private apollo: Apollo) {}
 
-  getAllNews(): any {}
+  getAllNews(): any { }
 
-  updateNews(id: number, like: boolean): any {
+  updatePost(id: number, like: boolean): any {
     this.apollo
       .mutate<CreateLikeMutationResponse>({
         mutation: CREATE_LIKE_MUTATION,

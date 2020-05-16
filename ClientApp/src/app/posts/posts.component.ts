@@ -1,15 +1,15 @@
-import { Component, OnInit, NgModule } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../api.service';
 import gql from 'graphql-tag';
 import { Apollo } from 'apollo-angular';
 
 @Component({
-  selector: 'app-news-component',
+  selector: 'app-posts-component',
   templateUrl: './posts.component.html',
   styleUrls: ['./posts.component.css'],
 })
 export class PostsComponent implements OnInit {
-  posts: any[];
+  postsAll: any[];
   loading = true;
   error: any;
   updatedPosts: any;
@@ -17,11 +17,11 @@ export class PostsComponent implements OnInit {
 
   constructor(private apollo: Apollo, private api: ApiService) {}
 
-  updatePosts(isLiked: boolean, info: any) {
-    this.updatedPosts = info;
+  updatePosts(isLiked: boolean, post: any) {
+    this.updatedPosts = post;
     this.updatedPosts.like = isLiked;
     this.api
-      .updateNews(this.id, this.updatedPosts.like)
+      .updatePost(post.id, this.updatedPosts.like)
       .subscribe((response) => {});
   }
 
@@ -47,7 +47,7 @@ export class PostsComponent implements OnInit {
       })
       .subscribe(
         ({ data, loading }) => {
-          this.posts = data && data.getAllNews;
+          this.postsAll = data.posts;
           this.loading = loading;
         },
         (error) => {
