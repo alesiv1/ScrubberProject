@@ -26,3 +26,4 @@ D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUScraper\obj\Debug\netcor
 D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUScraper\obj\Debug\netcoreapp3.1\DOUScraper.csproj.CopyComplete
 D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUScraper\obj\Debug\netcoreapp3.1\DOUScraper.dll
 D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUScraper\obj\Debug\netcoreapp3.1\DOUScraper.pdb
+D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUScraper\obj\Debug\netcoreapp3.1\DOUScraper.genruntimeconfig.cache

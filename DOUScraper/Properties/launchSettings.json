@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DOUScraper": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

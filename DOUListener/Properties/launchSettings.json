@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DOUListener": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
