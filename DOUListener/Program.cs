@@ -1,5 +1,8 @@
-﻿using DOUListener.RebbitMQ;
+﻿using DOUListener.Data;
+using DOUListener.RebbitMQ;
+using DOUScraper.Models;
 using System;
+using System.Linq;
 using System.Threading;
 
 namespace DOUListener

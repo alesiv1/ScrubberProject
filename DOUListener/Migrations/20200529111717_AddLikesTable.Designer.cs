@@ -3,14 +3,16 @@ using DOUListener.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DOUListener.Migrations
 {
     [DbContext(typeof(ListenerDbContext))]
-    partial class ListenerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200529111717_AddLikesTable")]
+    partial class AddLikesTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -60,6 +62,9 @@ namespace DOUListener.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Author")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("Likes")
                         .HasColumnType("bit");

@@ -1,4 +1,5 @@
 ﻿using DOUListener.Models;
+using DOUScraper.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,6 +10,8 @@ namespace DOUListener.Data
 	public class ListenerDbContext : DbContext
 	{
         public DbSet<PostInfo> Posts { get; set; }
+
+        public DbSet<PostInfoLikes> Likes { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

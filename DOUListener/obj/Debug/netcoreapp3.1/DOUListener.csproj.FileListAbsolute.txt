@@ -95,6 +95,7 @@ D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUListener\bin\Debug\netco
 D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUListener\obj\Debug\netcoreapp3.1\DOUListener.csprojAssemblyReference.cache
 D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUListener\obj\Debug\netcoreapp3.1\DOUListener.AssemblyInfoInputs.cache
 D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUListener\obj\Debug\netcoreapp3.1\DOUListener.AssemblyInfo.cs
+D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUListener\obj\Debug\netcoreapp3.1\DOUListener.csproj.CoreCompileInputs.cache
 D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUListener\obj\Debug\netcoreapp3.1\DOUListener.csproj.CopyComplete
 D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUListener\obj\Debug\netcoreapp3.1\DOUListener.dll
 D:\ScrubberProjectV2\ScrubberProject\ScrubberProject\DOUListener\obj\Debug\netcoreapp3.1\DOUListener.pdb
